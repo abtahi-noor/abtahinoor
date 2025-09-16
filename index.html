@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abtahi Noor — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="shadow-sm">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">AN</div>
+        <div>Abtahi Noor</div>
+      </div>
+      <button class="menu-btn" id="menuBtn">☰ Menu</button>
+      <nav>
+        <ul id="menu">
+          <li><a href="#about" class="navlink">About</a></li>
+          <li><a href="#research" class="navlink">Research</a></li>
+          <li><a href="#projects" class="navlink">Projects</a></li>
+          <li><a href="#publications" class="navlink">Publications</a></li>
+          <li><a href="#experience" class="navlink">Experience</a></li>
+          <li><a href="#education" class="navlink">Education</a></li>
+          <li><a href="#contact" class="navlink">Contact</a></li>
+          <li><a href="#download" class="navlink">Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="container hero-inner">
+    <!-- Left side text -->
+    <div>
+      <span class="eyebrow">AI • ML • IoT • Research</span>
+      <h1>Hello, I’m <span style="color:var(--blue-700)">Abtahi Noor</span></h1>
+      <p class="subtitle">CSE graduate from BRAC University (CGPA 3.75, Merit-based Scholarship) specializing in ML, DL, CV, and IoT.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn ghost" href="#download">Download CV</a>
+      </div>
+    </div>
+
+    <!-- Right side: only photo -->
+    <aside class="hero-card" style="text-align:center">
+      <img src="assets/Abtahi_Noor_Photo.jpg" alt="Abtahi Noor" 
+           style="width:220px; height:auto; margin-inline:auto; display:block;">
+    </aside>
+  </div>
+</section>
+
+
+    <!-- About Section -->
+    <span id="about" class="anchor"></span>
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="grid cols-2">
+          <div class="card">
+            <p>I am a Computer Science and Engineering graduate from BRAC University with teaching, research, and leadership experience. Research Assistant at BRAC Business School, Student Tutor (STA201), and President of BURED. Internship at Nagad in the Technology Department.</p>
+          </div>
+          <div class="card">
+            <h3>Skills</h3>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">C/C++</span>
+              <span class="tag">Java</span>
+              <span class="tag">PHP</span>
+              <span class="tag">HTML/CSS/JS</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">CNN/OpenCV</span>
+              <span class="tag">IoT (Arduino, STM32, ESP32, Raspberry Pi)</span>
+              <span class="tag">MATLAB/Simulink</span>
+              <span class="tag">Git/GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Research Interests Section -->
+<section style="background:linear-gradient(180deg,var(--blue-50),transparent)">
+  <div class="container">
+    <h2 class="section-title">Research Interests</h2>
+    <p style="max-width:800px">
+      My primary research interests lie in <strong>Machine Learning</strong>, 
+      <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, 
+      and <strong>Natural Language Processing</strong>. I am particularly 
+      interested in <em>medical image analysis</em>, 
+      <em>Bangla NLP</em>, <em>IoT-based intelligent systems</em>, 
+      and <em>explainable AI</em> to ensure transparency and reliability 
+      in critical decision-making domains such as healthcare and education.
+    </p>
+  </div>
+</section>
+
+    <!-- Research Section -->
+    <span id="research" class="anchor"></span>
+    <section style="background:linear-gradient(180deg,transparent, var(--blue-50))">
+      <div class="container">
+        <h2 class="section-title">Research Experience</h2>
+        <div class="timeline">
+          <div class="entry card">
+            <h4>Primary Dataset Creation for Fall Detection</h4>
+            <div class="meta">RSGI Funded • Team Lead • Supervisor: Dr. Aniqua Zereen</div>
+          </div>
+          <div class="entry card">
+            <h4>Federated Learning in Healthcare</h4>
+            <div class="meta">Survey Paper (under review, Q1 Journal)</div>
+          </div>
+          <div class="entry card">
+            <h4>Vision-based Fall Detection Systems</h4>
+            <div class="meta">Review Paper submitted to ICCIT 2025</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <span id="projects" class="anchor"></span>
+    <section>
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>PlantSegNet</h3>
+            <p>Plant Disease Segmentation using U-Net.</p>
+          </div>
+          <div class="card">
+            <h3>Lightweight VQA for Skin Disease</h3>
+            <p>Thesis using ViT, CNN, MiniLM, ResNet.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <span id="publications" class="anchor"></span>
+    <section style="background:linear-gradient(180deg,var(--blue-50), transparent)">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div class="timeline">
+          <div class="entry card"><h4>Cross-Domain AI Fusion</h4><div class="meta">ICSCSS 2025</div></div>
+          <div class="entry card"><h4>Sustainable Cohesive HRM Framework</h4></div>
+          <div class="entry card"><h4>Ontological Paradigm for HRM Sustainability</h4><div class="meta">ICEMSS Conference</div></div>
+          <div class="entry card"><h4>Robotics: Future of Schooling in Bangladesh</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <span id="experience" class="anchor"></span>
+    <section>
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="entry card"><h4>Intern — Nagad (Tech Dept)</h4><div class="meta">Jan 2025 – Feb 2025</div></div>
+          <div class="entry card"><h4>President — BURED</h4><div class="meta">Jan 2024 – Jan 2025</div></div>
+          <div class="entry card"><h4>Student Tutor — BRAC University (STA201)</h4><div class="meta">Sep 2023 – Dec 2024</div></div>
+          <div class="entry card"><h4>Research Assistant — BRAC Business School</h4><div class="meta">Oct 2024 – Dec 2024</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <span id="education" class="anchor"></span>
+    <section>
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>BRAC University — B.Sc. CSE</h3>
+            <p>CGPA: 3.75 (Merit-based Scholarship)</p>
+          </div>
+          <div class="card">
+            <h3>Notre Dame College — HSC</h3>
+            <p>GPA: 5.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download CV Section -->
+    <span id="download" class="anchor"></span>
+    <section style="text-align:center">
+      <div class="container">
+        <h2 class="section-title">Download CV</h2>
+        <a class="btn primary" href="assets/Abtahi_Noor_CV.pdf" download>⬇️ Download</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <span id="contact" class="anchor"></span>
+    <section>
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p>Email: <a href="mailto:abtahinoor20@gmail.com">abtahinoor20@gmail.com</a></p>
+        <p>Phone: +8801744265048</p>
+        <p>LinkedIn | GitHub | ResearchGate</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Abtahi Noor. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
